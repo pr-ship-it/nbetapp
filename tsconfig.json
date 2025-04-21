@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/blog/[slug]/page.jsx", "src/components/SingUpForm.tsx", "src/models/subscription.ts", "src/models/user.ts", "src/app/api/pruebas/route.js", "src/app/controllers/authController.js", "src/app/api/me/route.js", "src/lib/atom.js", "src/app/me/page.jsx", "src/app/oddsMatcher/page.jsx", "src/app/api/proxy/route.js", "src/lib/auth.js", "src/app/api/auth/[...nextauth]/route.js", "src/components/GoogleSignButton.jsx", "src/app/api/create-checkout-session/route.js", "src/app/api/stripe-webhook/route.js", "src/components/Lightining.tsx", "src/components/Lightining.tsx", "src/app/DataFetcher.jsx", "src/app/api/me/subscription/route.js", "src/components/UserEditForm.jsx", "src/components/Calculator.jsx"],
+  "exclude": ["node_modules"]
+}
